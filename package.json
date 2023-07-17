@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "version": "v0.0.1",
+  "name": "my-solid-auth",
   "scripts": {
     "dev": "solid-start dev --port 3000",
     "start": "solid-start start --port 3000",
