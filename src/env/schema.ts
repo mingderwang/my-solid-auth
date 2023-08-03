@@ -8,6 +8,8 @@ export const serverScheme = z.object({
   AUTH_SECRET: z.string(),
   AUTH_TRUST_HOST: z.string().optional(),
   AUTH_URL: z.string().optional(),
+  KV_REST_API_URL: z.string(),
+  KV_REST_API_TOKEN: z.string()
 });
 
 export const clientScheme = z.object({

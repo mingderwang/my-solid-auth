@@ -12,6 +12,7 @@ export const formatErrors = (
     .filter(Boolean);
 
 const env = serverScheme.safeParse(process.env);
+console.log(env)
 
 if (env.success === false) {
   console.error(
